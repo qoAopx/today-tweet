@@ -3,7 +3,6 @@ bottle==0.12.19
 certifi==2020.12.5
 chardet==4.0.0
 idna==2.10
-logging==0.4.9.6
 oauthlib==3.1.0
 pytz==2020.5
 requests==2.25.1

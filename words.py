@@ -29,7 +29,7 @@ def puttweet():
 			#msg = unicode(text, 'utf-8')
 			msg = text.replace('\n','')
 			msg = msg[0:138]
-			msg += str(today.second)
+			#msg += str(today.second)
 			params = {"status": msg} 
 			#print(params)
 			req = twitter.post("https://api.twitter.com/1.1/statuses/update.json", params = params)

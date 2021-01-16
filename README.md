@@ -5,10 +5,12 @@
 
 ## 設定方法
 
+```sh
 heroku config:set --app "[APPNAME]" CONSUMER_KEY="XXX"
 heroku config:set --app "[APPNAME]" CONSUMER_SECRET="XXX"
 heroku config:set --app "[APPNAME]" ACCESS_TOKEN_KEY="XXX"
 heroku config:set --app "[APPNAME]" ACCESS_TOKEN_SECRET="XXX"
+```
 
 ## 参考
 

@@ -7,6 +7,7 @@ twische = BlockingScheduler()
 @twische.scheduled_job('interval',minutes=60)
 def timed_job():
     today = datetime.now()
+    print(today)
     if today.hour == 8 :
         words.puttweet()
 
